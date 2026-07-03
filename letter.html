@@ -1,0 +1,167 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My devuuuu❤️</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=caveat:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body{
+margin:0;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:linear-gradient(to bottom,#020111,#08192f,#000);
+font-family:Poppins,sans-serif;
+overflow:auto;
+padding:40px 20px;
+box-sizing:border-box;
+}
+.container{ text-align:center; }
+#envelope{
+width:320px;
+height:220px;
+position:relative;
+margin:auto;
+cursor:pointer;
+transition:1s;
+max-width:85vw;
+}
+.back{
+position:absolute;
+width:320px;
+height:220px;
+background:#f5e6c8;
+border-radius:8px;
+}
+.flap{
+position:absolute;
+top:0;
+left:0;
+width:0;
+height:0;
+border-left:160px solid transparent;
+border-right:160px solid transparent;
+border-top:110px solid #e0c89b;
+transform-origin:top;
+transition:1s;
+z-index:5;
+}
+.front{
+position:absolute;
+bottom:0;
+width:0;
+height:0;
+border-left:160px solid #edd8b0;
+border-right:160px solid #edd8b0;
+border-top:110px solid transparent;
+border-bottom:110px solid #edd8b0;
+border-radius:8px;
+z-index:4;
+}
+.seal{
+position:absolute;
+width:55px;
+height:55px;
+background:#b30000;
+border-radius:50%;
+top:92px;
+left:132px;
+z-index:6;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:22px;
+color:white;
+transition:1s;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+.open .flap{ transform:rotateX(180deg); }
+.open .seal{ opacity:0; }
+h1{
+color:white;
+margin-bottom:40px;
+font-family:'caveat',cursive;
+font-weight:700;
+}
+.letter{
+margin-top:40px;
+width:300px;
+max-width:85vw;
+background:#ffe4ec;
+border-radius:10px;
+padding:25px;
+box-sizing:border-box;
+color:#000000;
+text-align:left;
+font-family:'caveat',cursive;
+font-size:22px;
+line-height:1.8;
+opacity:0;
+transform:translateY(20px);
+transition:1s;
+box-shadow:0 0 30px rgba(255,255,255,.2);
+}
+.letter.show{ opacity:1; transform:translateY(0); }
+.hidden{ display:none; }
+.next{
+margin-top:30px;
+display:none;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:#ff4f81;
+color:white;
+cursor:pointer;
+font-size:18px;
+text-decoration:none;
+}
+.next.show{ display:inline-block; }
+.next:hover{ background:#ff2c6b; }
+</style>
+</head>
+<body>
+
+<h1>THIS IS MY WHOLE SNEHAM FOR U</h1>
+
+<div class="container">
+
+  <div id="envelope">
+    <div class="back"></div>
+    <div class="flap"></div>
+    <div class="front"></div>
+    <div class="seal">❤️</div>
+  </div>
+
+  <div class="letter hidden" id="letterText">
+    <h2>HAPPY BRDEY SHUNDHARAAA😘❤️</h2>
+    <p>Hey love,<br>I made this small surprise just for you.Ik this is not a big deal but as I can't wish u in person I thought atleast you should feel my presence and my sneham for you 
+        so writing my whole heart u better read this with absolute sneham towards me🤌🏻</p>
+    <p>As u know I LOVE YOU DEVUU like more than u could imagine and even more than I could imagine. I never thought I would love u this much and openly express this much hheehe💋
+         When i first met u in brilliant I never even had a slightest thought of u being my bf and celebrating our every small and big wins together and here we are .</p> 
+    <p>life is very unpredictable and that is very evident in our case even if one thing didnt happen we wouldn't have met and I think that's the best part " WE GOT EACH OTHER 😽 "
+         and lots and lots of chakkara ummha to my brdey boy😽😽💋</p>
+    <p>Every single and small moment with u becomes so special as u take those so seriously.like bro how r u managing me so effortlessly??
+        even i get frustrated by myself hehe but devu nte mwwuthaanhh😘</p>
+    <p>verentha parayua orpaad orpaadu ishtava ee chekkanee😘 ayyo ayyo inn varan pattathel nte kunjimani ennod kshmikkanam adtha varsham ith ready akkammm💋 hmm pinnee ith ishtayo?
+         njn ottk cheythathalla still idea okke enteya uhuhuu(rich laugh)hmm ishtayinn prynatha nink nallath!</p>
+    <p>pinne iniyum orpadolla kore kaalam brdeysum anniversariesum okke celebrate cheyyan nee entoode venam kettoda? ummmhaaa😘 endaville?? (ik u will say YES) 
+        ennalm nee pryumba kekkan or sugam allee..</p>
+    <p>nee edakk choikkrlle ath ishtayo ith ishtayo ennokke nee enth cheythalum enkk ishtam aahda potta😽🤌🏻
+    ninneyum ishtama nee cheyyunna krynglm ishtava ketto?? </p>
+    <p>Every moment with you feels like a gift I don't deserve.</p>
+    <p>I hope this year brings you happiness, peace, and everything you dream of.</p>
+    <p>Happy Birthday again ❤️<br>I love you.</p>
+    <p style="text-align:right;">— WITH KORE KORE SNEHAM ,Yours GOPU💌</p>
+  </div>
+
+  <a href="memories.html" class="next" id="nextBtn">Next ❤️</a>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
